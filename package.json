@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "pulp build && npm run docs",
+    "docs": "rm -rf generated-docs && pulp docs"
+  }
+}
